@@ -19,7 +19,7 @@ def fahrenheit_to_celsius(val):
 if __name__ == '__main__':
     df = read_annual_temp_avg()
 
-    plt.suptitle('1981-2010 Avg Temp')
+    plt.suptitle('1981-2010 U.S. Climate Normals')
 
     plt.subplot(121)
     temp_f_val_counts = df.temp_f.value_counts()
